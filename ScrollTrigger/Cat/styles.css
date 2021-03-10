@@ -1,0 +1,89 @@
+html {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+section {
+  height: 100vh;
+  text-align: center;
+}
+
+.cat {
+  margin: 0 auto;
+  width: 145.3px;
+  height: 120px;
+  background: #191919 url(imgs/sequence-spritesheet-long.png) 0 0;
+}
+
+h1.page-title {
+  color: #333;
+}
+
+.section-a {
+  background: #e6e6e6;
+}
+
+.section-b {
+  background: #777777;
+}
+
+.section-c {
+  background: #555555;
+}
+.section-d {
+  background: #222222;
+}
+.section-e {
+  background: #000000;
+}
+
+.panel {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  text-align: center;
+}
+
+.panel--blue {
+  background: darkblue;
+}
+.panel--red {
+  background: firebrick;
+}
+.panel--green {
+  background: limegreen;
+}
+.panel--purple {
+  background: purple;
+}
+
+.panel-txt {
+  padding: 10% 0 0 0;
+  font-size: 3em;
+  color: rgba(255, 255, 255, 0.3);
+}
